@@ -1,0 +1,81 @@
+<html lang="en"></html>
+
+<head>
+  <meta charset="utf-8">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link rel="stylesheet" href="./index.css">
+  <script src="./index.js"></script>
+</head>s
+
+<body>
+  <div id="non-footer">
+  <!-- navigation bar -->
+  <nav>
+    <div class="leftside-navbar">
+      <div class="image"></div>
+      <div class="description">
+        <p id="name">IAN HSU, MD</p>
+        <p id="title">Psychiatrist & Psychotherapist</p>
+      </div>
+    </div>
+    <a href="./index.html" id="item1">HOME</a>
+    <a href="./about.html" id="item2">ABOUT ME</a>
+    <a href="./services.html" id="item3">SERVICES & PAYMENT</a>
+    <a href="./contact.html" id="item4">BOOK APPOINTMENT</a>
+  </nav>
+
+  <!-- main content -->
+  <main id="contact">
+    <h1>BOOK AN APPOINTMENT</h1>
+    <p>Please request a free 10-minute initial consultation by filling out the form below.</p>
+    <div id="contact-info">
+      <div>
+        <h2>CONTACT</h2>
+        <p>EMAIL</p>
+        <p>IanHsu.MD@gmail.com</p>
+      </div>
+      <form action="https://formsubmit.co/evanhao23@email.com" method="POST">
+        <input type="hidden" name="_url" value="https://yourdomain.co/contact.html">
+        <div id="firstlast">
+          <div id="first" class='form-title'>
+            <label for="fname"><p>FIRST NAME <span class="star">*</span></p></label>
+            <input type="text" id="fname" name="name">
+          </div>
+          <div class="form-title">
+            <label for="lname"><p>LAST NAME <span class="star">*</span></p></label>
+            <input type="text" id="lname" name="lname">
+          </div>
+      </div>
+      <div class="form-section">
+        <label for="email"><p>EMAIL <span class="star">*</span></p></label>
+        <input type="text" id="email" name="email">
+      </div>
+      <div class="form-section">
+        <label for="phone"><p>PHONE <span class="star">*</span></p></label>
+        <input type="text" id="phone" name="phone">
+      </div>
+      <div class="form-section2">
+        <label for="message"><p>MESSAGE <span class="star">*</span></p></label>
+        <textarea name="message"></textarea>
+
+        <!-- <input type="text" id="phone" name="phone"> -->
+
+      </div>
+      <div id="submit">
+        <input type="submit" value="SEND MESSAGE">
+      </div>
+      </form>
+    </div>
+  </main>
+  </div>
+  <footer>
+    <a href="./index.html">Home</a>
+    <div class="circle"></div>
+    <a href="./about.html">About Me</a>
+    <div class="circle"></div>
+    <a href="./services.html">Services & Payment</a>
+    <div class="circle"></div>
+    <a href="./contact.html">Book Appointment</a>
+  </footer>
+</body>
+</html>
