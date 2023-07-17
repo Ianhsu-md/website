@@ -1,19 +1,12 @@
 "use strict";
 
-
 (function() {
   window.addEventListener("load", init);
 
   function init() {
-    // THIS IS THE CODE THAT WILL BE EXECUTED ONCE THE WEBPAGE LOADS
     id("home-button").addEventListener("click", function() {
       document.location.href = "https://ianhsu-md.github.io/website/contact.html";
     });
-  }
-
-  function exampleFunction2(someVariable) {
-    /* SOME CODE */
-    return something;
   }
 
   /** ------------------------------ Helper Functions  ------------------------------ */
