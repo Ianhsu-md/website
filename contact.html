@@ -5,7 +5,7 @@
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   <link rel="stylesheet" href="./index.css">
   <script src="./index.js"></script>
-</head>s
+</head>
 
 <body>
   <div id="non-footer">
@@ -39,30 +39,27 @@
         <div id="firstlast">
           <div id="first" class='form-title'>
             <label for="fname"><p>FIRST NAME <span class="star">*</span></p></label>
-            <input type="text" id="fname" name="name">
+            <input type="text" id="fname" name="first name" required>
           </div>
           <div class="form-title">
             <label for="lname"><p>LAST NAME <span class="star">*</span></p></label>
-            <input type="text" id="lname" name="lname">
+            <input type="text" id="lname" name="last name" required>
           </div>
       </div>
       <div class="form-section">
         <label for="email"><p>EMAIL <span class="star">*</span></p></label>
-        <input type="text" id="email" name="email">
+        <input type="text" id="email" name="email" required>
       </div>
       <div class="form-section">
         <label for="phone"><p>PHONE <span class="star">*</span></p></label>
-        <input type="text" id="phone" name="phone">
+        <input type="text" id="phone" name="phone" required>
       </div>
       <div class="form-section2">
         <label for="message"><p>MESSAGE <span class="star">*</span></p></label>
-        <textarea name="message"></textarea>
-
-        <!-- <input type="text" id="phone" name="phone"> -->
-
+        <textarea name="message"></textarea required>
       </div>
       <div id="submit">
-        <input type="submit" value="SEND MESSAGE">
+        <input type="submit" value="SEND MESSAGE" required>
       </div>
       </form>
     </div>
