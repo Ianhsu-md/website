@@ -297,29 +297,30 @@ footer > a:hover {
 }
 
 #about-description h1 {
-  display: flex;
-  width: 205px;
-  height: 36px;
-  flex-direction: column;
-  justify-content: center;
-  flex-shrink: 0;
-  margin-top: 0px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* flex-shrink: 0; */
+  /* margin-top: 0px; */
+  padding-top: 0px;
+  line-height: 0.75em;
 
   color: #144E43;
   font-size: 40px;
   font-family: Poppins;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
+  margin: 0px;
 }
 
 #about-description p {
-  padding-top: 50px;
-  display: flex;
+  padding-top: 55px;
+  /* display: flex; */
   width: 579px;
   height: 672px;
-  flex-direction: column;
-  justify-content: center;
+  /* flex-direction: column;
+  justify-content: center; */
+  margin: 0;
   flex-shrink: 0;
 
   color: #000;
@@ -331,19 +332,17 @@ footer > a:hover {
 }
 
 #expertise {
-  display: flex;
+  /* display: flex; */
   width: 573px;
-  flex-direction: column;
-  justify-content: center;
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
 }
 
 #expertise h1 {
   margin: 0px;
   padding-top: 84px;
-  display: flex;
+  /* display: flex; */
   width: 417.743px;
-  flex-direction: column;
+  /* flex-direction: column; */
   flex-shrink: 0;
   padding-left: 9.5px;
 
