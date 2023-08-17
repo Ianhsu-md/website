@@ -117,14 +117,9 @@ nav > *:first-child {
   flex-shrink: 0;
 }
 
-/* .leftside-home {
-  flex-direction: column;
-  flex: 1;
-} */
-
 .leftside-home h1 {
   margin: 0;
-  width: 389px;
+  width: 400px;
   height: 140.329px;
   color: #144E43;
   font-size: 96px;
