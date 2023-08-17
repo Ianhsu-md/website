@@ -308,6 +308,7 @@ footer > a:hover {
 
 #about-description p {
   padding-top: 25px;
+  padding-bottom: 60px;
   /* display: flex; */
   width: 579px;
   height: 672px;
