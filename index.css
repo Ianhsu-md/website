@@ -15,14 +15,22 @@ body {
 
 #second-body {
   display: flex;
+  flex-wrap: wrap;
   padding-left: 99px;
+  justify-content: center;
+}
+
+#second-body img, h1 {
+  /* padding-top:50px */
+  padding-top: 86px;
+
 }
 
 nav {
   display: flex;
   height: 117px;
   flex-shrink: 0;
-  margin-bottom: 86px;
+  /* margin-bottom: 86px; */
   justify-content: space-between;
   text-align: center;
   align-items: center;
@@ -110,7 +118,7 @@ nav > *:first-child {
 
 .leftside-home {
   flex-direction: column;
-  flex: 1;
+  /* flex: 1; */
 }
 
 .leftside-home h1 {
@@ -276,6 +284,7 @@ footer > a:hover {
 /* About us Page */
 
 #about {
+  margin-top: 86px;
   align-items: start;
   row-gap: 84px;
   column-gap: 88px;
