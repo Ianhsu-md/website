@@ -594,16 +594,30 @@ font-weight: 400;
 line-height: normal;
 }
 
+#contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+}
+
 #contact-info {
   display: flex;
-  flex-shrink: 0;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  /* flex-shrink: 0; */
   padding-left: 100px;
+  /* justify-content: space-between; */
+}
+
+#email {
+  padding-right: 245px;
 }
 
 #firstlast {
   padding-top: 141px;
   display: flex;
-  padding-left: 245px;
+  /* padding-left: 245px; */
 }
 
 #first {
@@ -634,7 +648,7 @@ input {
 }
 
 .form-section, .form-section2, #submit {
-  padding-left: 245px;
+  /* padding-left: 245px; */
 }
 
 .form-section p {
