@@ -58,6 +58,7 @@ nav > *:first-child {
   align-items: center;
   flex-shrink: 0;
   line-height: 0;
+  padding-left: 15px;
 }
 
 .description {
@@ -116,10 +117,10 @@ nav > *:first-child {
   flex-shrink: 0;
 }
 
-/* .leftside-home { */
-  /* flex-direction: column; */
-  /* flex: 1; */
-/* } */
+/* .leftside-home {
+  flex-direction: column;
+  flex: 1;
+} */
 
 .leftside-home h1 {
   margin: 0;
@@ -415,16 +416,17 @@ b {
 #services-title {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
 
 #services h1 {
-  display: flex;
+  /* display: flex; */
   width: 880px;
   height: 83px;
-  flex-direction: column;
-  justify-content: center;
-  flex-shrink: 0;
+  /* flex-direction: column;
+  justify-content: center; */
+  /* flex-shrink: 0; */
   margin: 0;
 
   color: #144E43;
@@ -438,8 +440,10 @@ b {
 
 #services img {
   object-fit: cover;
-  width: 1240px;
+  width: 70%;
+  max-width: 1240px;
   height: 581px;
+  height: auto;
   flex-shrink: 0;
   padding-top: 31px;
   padding-bottom: 74px;
@@ -447,6 +451,12 @@ b {
 
 #services-information {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  /* justify-content: space-between; */
+  /* padding-left: 100px; */
 }
 
 
@@ -459,13 +469,13 @@ b {
   line-height: normal;
 
   margin: 0;
-  padding-left: 100px;
+  /* padding-left: 100px; */
   padding-bottom: 10px;
 }
 
 #services-paragraph {
-  padding-left: 100px;
-  width: 585px;
+  /* padding-left: 100px; */
+  width: 560px;
   height: 501px;
 
   color: #000;
@@ -475,18 +485,14 @@ b {
   font-weight: 400;
   line-height: normal;
   margin:0;
-  padding-bottom: 223px;
-}
-
-#insurance-information h2 {
-  padding-left: 141px;
+  /* padding-bottom: 223px; */
 }
 
 #insurance-information p {
-  width: 505px;
+  width: 560px;
   height: 220px;
 
-  padding-left: 143px;
+  /* padding-left: 143px; */
   color: #000;
   font-size: 20px;
   font-family: Poppins;
@@ -494,7 +500,7 @@ b {
   font-weight: 400;
   line-height: normal;
   margin:0;
-  padding-bottom: 504px;
+  /* padding-bottom: 504px; */
 }
 
 a:link { text-decoration: none; }

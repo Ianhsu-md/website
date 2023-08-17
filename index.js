@@ -4,9 +4,12 @@
   window.addEventListener("load", init);
 
   function init() {
-    id("home-button").addEventListener("click", function() {
-      document.location.href = "https://ianhsu-md.github.io/website/contact.html";
-    });
+    if(document.getElementById("home")) {
+
+      id("home-button").addEventListener("click", function() {
+        document.location.href = "https://ianhsu-md.github.io/website/contact.html";
+      });
+    }
   }
 
   /** ------------------------------ Helper Functions  ------------------------------ */
