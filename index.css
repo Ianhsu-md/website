@@ -116,17 +116,15 @@ nav > *:first-child {
   flex-shrink: 0;
 }
 
-.leftside-home {
-  flex-direction: column;
+/* .leftside-home { */
+  /* flex-direction: column; */
   /* flex: 1; */
-}
+/* } */
 
 .leftside-home h1 {
   margin: 0;
-  flex:1;
   width: 389px;
   height: 140.329px;
-  flex-shrink: 0;
   color: #144E43;
   font-size: 96px;
   font-family: Poppins;
