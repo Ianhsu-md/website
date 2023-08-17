@@ -641,9 +641,9 @@ input {
   border: 3px solid #D9DADF;
 }
 
-.form-section, .form-section2, #submit {
-  /* padding-left: 245px; */
-}
+/* .form-section, .form-section2, #submit {
+  padding-left: 245px;
+} */
 
 .form-section p {
   margin: 0px;
