@@ -88,9 +88,10 @@ nav > *:first-child {
 .image {
   width: 54px;
   height: 54px;
-  flex-shrink: 0;
+  object-fit: fill;
+  /* flex-shrink: 0; */
   border-radius: 54px;
-  background: url(./images/home.jpg), lightgray 50% / cover no-repeat;
+  /* background: url(./images/face.png), lightgray 50% / cover no-repeat; */
 }
 
 #item1 {
